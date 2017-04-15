@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@android:color/background_dark"
+    android:gravity="center"
+    android:visibility="visible">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/Converter"
+        android:id="@+id/converter_button"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:background="@android:color/holo_red_light"/>
+
+</LinearLayout>
